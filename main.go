@@ -6,8 +6,9 @@ func main() {
 	if (false) {
 		behavioral_patterns.VisitorPattern()
 		behavioral_patterns.CommandPattern()
+		behavioral_patterns.ChainOfResponsibilityStatic()
 	}
 
-	behavioral_patterns.ChainOfResponsibilityStatic()
+	behavioral_patterns.MediatorDesignPattern()
 
 }
