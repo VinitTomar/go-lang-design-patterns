@@ -7,8 +7,9 @@ func main() {
 		behavioral_patterns.VisitorPattern()
 		behavioral_patterns.CommandPattern()
 		behavioral_patterns.ChainOfResponsibilityStatic()
+		behavioral_patterns.MediatorDesignPattern()
 	}
 
-	behavioral_patterns.MediatorDesignPattern()
+	behavioral_patterns.IteratorPattern()
 
 }
