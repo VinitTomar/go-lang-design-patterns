@@ -10,8 +10,8 @@ func main() {
 		behavioral_patterns.MediatorDesignPattern()
 		behavioral_patterns.IteratorPattern()
 		behavioral_patterns.MementoPattern()
+		behavioral_patterns.ObserverPattern()
 	}
 
-	behavioral_patterns.ObserverPattern()
-
+	behavioral_patterns.StatePattern()
 }
