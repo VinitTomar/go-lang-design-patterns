@@ -12,8 +12,9 @@ func main() {
 		behavioral_patterns.MementoPattern()
 		behavioral_patterns.ObserverPattern()
 		behavioral_patterns.StatePattern()
+		behavioral_patterns.StrategyPattern()
 	}
 
-	behavioral_patterns.StrategyPattern()
+	behavioral_patterns.TemplatePattern()
 
 }
