@@ -20,8 +20,10 @@ func main() {
 
 		creational_patterns.Abstract_Factory_Pattern()
 		creational_patterns.Factory_Pattern()
+		creational_patterns.Builder_Pattern()
 	}
 
-	creational_patterns.Builder_Pattern()
+	creational_patterns.PrototypePattern()
+
 
 }
