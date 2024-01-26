@@ -17,9 +17,10 @@ func main() {
 		behavioral_patterns.StatePattern()
 		behavioral_patterns.StrategyPattern()
 		behavioral_patterns.TemplatePattern()
+
+		creational_patterns.Abstract_Factory_Pattern()
 	}
 
-	creational_patterns.Abstract_Factory_Pattern()
-
+	creational_patterns.Factory_Pattern()
 
 }
