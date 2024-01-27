@@ -31,8 +31,9 @@ func main() {
 		structural_patterns.CompositePattern()
 		structural_patterns.DecoratorPattern()
 		structural_patterns.FacadePattern()
+		structural_patterns.ProxyPattern()
 	}
 
-	structural_patterns.ProxyPattern()
+	structural_patterns.FlyWeightPattern()
 
 }
