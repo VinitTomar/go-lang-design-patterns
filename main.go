@@ -3,6 +3,7 @@ package main
 import (
 	"go/design/patterns/behavioral_patterns"
 	"go/design/patterns/creational_patterns"
+	"go/design/patterns/structural_patterns"
 )
 
 func main() {
@@ -23,8 +24,10 @@ func main() {
 		creational_patterns.Builder_Pattern()
 		creational_patterns.PrototypePattern()
 		creational_patterns.Singleton1()
+		creational_patterns.Singleton2()
 	}
 
-	creational_patterns.Singleton2()
+	structural_patterns.AdapterPattern()
+
 
 }
