@@ -30,9 +30,9 @@ func main() {
 		structural_patterns.BridgePattern()
 		structural_patterns.CompositePattern()
 		structural_patterns.DecoratorPattern()
+		structural_patterns.FacadePattern()
 	}
 
-	structural_patterns.FacadePattern()
-
+	structural_patterns.ProxyPattern()
 
 }
