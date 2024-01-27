@@ -27,8 +27,10 @@ func main() {
 		creational_patterns.Singleton2()
 
 		structural_patterns.AdapterPattern()
+		structural_patterns.BridgePattern()
 	}
 
-	structural_patterns.BridgePattern()
+	structural_patterns.CompositePattern()
+
 
 }
