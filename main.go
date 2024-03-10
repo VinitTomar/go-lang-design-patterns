@@ -3,11 +3,12 @@ package main
 import (
 	"go/design/patterns/behavioral_patterns"
 	"go/design/patterns/creational_patterns"
+	"go/design/patterns/functional_patterns"
 	"go/design/patterns/structural_patterns"
 )
 
 func main() {
-	if (false) {
+	if false {
 		behavioral_patterns.VisitorPattern()
 		behavioral_patterns.CommandPattern()
 		behavioral_patterns.ChainOfResponsibilityStatic()
@@ -32,8 +33,9 @@ func main() {
 		structural_patterns.DecoratorPattern()
 		structural_patterns.FacadePattern()
 		structural_patterns.ProxyPattern()
+		structural_patterns.FlyWeightPattern()
 	}
 
-	structural_patterns.FlyWeightPattern()
+	functional_patterns.OptionalPattern()
 
 }
